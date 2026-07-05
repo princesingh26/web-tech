@@ -1,0 +1,37 @@
+html {
+    height:100vh;
+    width:100vw;
+}
+
+div {
+    height: 200px;
+    border: 1px solid red;
+    font-size: 15px;
+}
+p {
+    height: 60%;
+    border: 1px solid blue;
+    font-size: 25px;
+    height: 1in;
+    width: 3in;
+}
+pre{
+    font-size: 23pt;
+    border: 1px dotted green;
+}
+
+header{
+    height: 300px;
+    width: 300px;
+    border: 2px dashed purple;
+}
+nav{
+    height: 60px;
+    width: 70px;
+    border: 3px dotted darkcyan;
+}
+article{
+    height:230px;
+    width: 290px;
+    border: 3px dotted darkorange;
+}

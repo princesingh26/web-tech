@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid ;
+}
+.Box1 {
+ background-color: crimson;
+box-sizing: content-box;
+ padding: 20px;
+}
+.Box2 {
+ background-color:blueviolet;
+box-sizing: border-box;
+ padding: 20px;
+}
+

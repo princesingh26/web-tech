@@ -1,0 +1,34 @@
+div>h1{
+    background-color: aqua;
+    color: red;
+}
+nav>h1{
+    background-color: purple;
+    color: yellow;
+}
+
+h1 + h2{
+    color: gold;
+}
+h1 ~ h2{
+    color: beige;
+    background-color: darkblue;
+}
+ p::first-letter{
+    color: pink;
+    background-color: brown;
+ }
+ pre::first-line{
+    color: coral;
+    background-color:darkmagenta;
+ }
+ h3::before{
+    content:"Heyyyy "
+ }
+article h1::after{
+    content:" Welcome"
+ }
+ body::selection{
+    background-color: darkgray;
+    color: lightcoral;
+ }

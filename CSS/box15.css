@@ -1,0 +1,24 @@
+.container{
+    height: 100px;
+    border: 1px solid red;
+    display: flex;
+     justify-content: center; 
+     align-content: start;
+ /*  gap: 10px;  there multi gap were
+  we can pass gap for row and column.
+   flex-wrap: wrap; instead of writting 
+   flex wrap,direction we can write  flex-flow.
+  /* flex-direction: column; */
+  flex-flow: row wrap;
+
+}
+
+
+.item {
+    height: 12px;
+    width:12px ;
+    background-color: violet;
+    border: 2px solid black;
+    margin: 4px;
+   /*flex-grow: 3; it will take 3 box width */
+}

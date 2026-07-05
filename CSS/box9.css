@@ -1,0 +1,48 @@
+div>h1:first-child {
+      color: pink;
+      background-color: brown;
+}
+div>h1:last-child{
+    color: grey;
+    background-color:darkred;
+}
+div>h1:nth-child(3){
+    color: gold;
+    background-color: darkmagenta;
+}
+
+h1:hover{
+    color: cyan;
+    background-color: blanchedalmond;
+}
+p:hover{
+    color: blue;
+    background-color: paleturquoise;
+}
+nav:hover{
+    color: blueviolet;
+    background-color: coral;
+}
+img:hover{
+    height: 300px;
+    width: 200px;
+    border: 1px solid;
+}
+
+a:link{
+    color: darkgreen;
+}
+a:visited{
+    color: crimson;
+}
+a:active{
+    color:darkred;
+}
+input:focus{
+    background-color: aquamarine;
+}
+textarea:focus{
+    border: 1px solid blueviolet;
+    color: navajowhite;
+    background-color: black;
+}
