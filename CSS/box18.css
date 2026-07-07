@@ -1,0 +1,33 @@
+*{
+   margin: 0px;   
+    padding: 0px;
+}
+    nav{
+    background-color: rgb(255, 213, 0);
+   text-align: center;
+    height: 40px;
+    font-size: 20px;
+}
+.container{
+    height: 70px;
+      border: 1px solid;
+      margin: 10px 100px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+}
+
+.item{
+    align-content: center;
+    height: 50px;
+    width: 90px;
+}
+
+.item-1{
+    width: 180px;
+}
+
+.item-2{
+
+}

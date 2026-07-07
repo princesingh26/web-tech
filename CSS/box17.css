@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: pink;
+    height: 20px;
+}
+
+.container {
+    height: 233px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.item-1 {
+    height: 80%;
+    width: 40%;
+    background-color:orange ;
+    align-items: center;
+}
+
+.item-2{
+      height: 80%;
+    width: 40%;
+    background-color:blue ;
+}
+
+div{
+    height: 30px;
+    background-color: black;
+}

@@ -1,0 +1,58 @@
+.container{
+    margin-top: 50px;
+    height: 80vh;
+    width: 100vw;
+    display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     align-items: center;
+     justify-items: center;
+
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border: 1px solid;
+}
+
+.item-1{
+    transform: rotate(45deg);
+}
+.item-2{
+    transform: rotateX(50deg);
+}
+
+.item-3{
+    transform: rotateY(50deg);
+}
+
+.item-4{
+    transform:scale(1.2);
+}
+
+.item-5{
+    transform: scale3d(1.5);
+}
+
+.item-6{
+
+    transform: skewX(30deg);
+}
+
+.item-7{
+    transform: skewY(30deg);
+}
+
+.item-8{
+    transform:translate(50px);
+}
+
+.item-9{
+    transform:translateY(50px);
+}
+
+.item-10{
+    transform:translateY(10%) translateX(30%) skewX(30deg);
+}
+
