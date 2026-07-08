@@ -1,0 +1,22 @@
+.container{
+    background-color: cyan;
+    height: 50vh;
+    width: 100vw;
+}
+
+.item{
+    background-color: crimson;
+    height: 30px;
+    width: 60px;
+  /*  transition-property:all; /* we can use multiple transition values also like transform,bgcolor
+    transition-duration:3s ;
+    transition-timing-function: ease-in-out ;
+    transition-delay: 1s;  instead of writting all we can use transition */
+
+    transition: all 3s ease-in-out 1s;
+}
+.translate{
+    transform: translateX(50px) translateY(50px); /*multiple transform can use */
+    background-color: yellow;
+}
+
