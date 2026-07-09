@@ -1,0 +1,52 @@
+.container{
+  height: 90vh;
+  width: 50vw;
+  background-color: purple;
+}
+
+.box{
+   height: 70px;
+   width: 70px;
+   background-color: bisque;
+ /*  animation-name: PrinceOP ;
+   animation-duration: 2s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   animation-delay: 1s;
+   animation-direction: alternate-reverse;
+animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+   */
+   animation: PrinceOP 2s ease-in-out 1s infinite alternate-reverse ,
+             Prince2 2s ease-in-out 1s infinite;
+}
+
+
+@keyframes PrinceOP {
+    from{
+        background-color: red;
+    }
+    to{
+        transform: translateX(400px);
+        background-color: yellow;
+    }
+}
+
+@keyframes Prince2 {
+
+    0%{
+       rotate: 20deg;
+    }
+    25%{
+    rotate: 40deg;
+    }
+    50%{
+     rotate: 60deg;
+    }
+    75%{
+     rotate: 80deg;
+    }
+    100%{
+    rotate: 100deg;
+    }
+}

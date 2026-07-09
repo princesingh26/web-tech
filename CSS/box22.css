@@ -1,0 +1,36 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    animation: Bounce1 3s linear infinite alternate,
+               Bounce2 1s ease-out infinite alternate;
+}
+
+.container{
+    height: 600px;
+    width: 700px;
+    background-color: crimson;
+    position: relative;
+}
+
+@keyframes Bounce1 {
+    from{
+        left: 0px;
+    }
+    to{
+        left: 100%;
+    }
+}
+
+@keyframes Bounce2 {
+    from{
+        bottom: 0px;
+    }
+    to{
+        bottom: 60%;
+    }
+}
